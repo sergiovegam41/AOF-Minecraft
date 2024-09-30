@@ -1,0 +1,27 @@
+{
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2024-09-29 23:55:43 +0000"
+    },
+    "done": true
+  },
+  "knight_quest:kq_quest_source": {
+    "criteria": {
+      "kq_quest_source": "2024-09-29 23:55:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2024-09-29 23:55:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-09-29 23:55:44 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
