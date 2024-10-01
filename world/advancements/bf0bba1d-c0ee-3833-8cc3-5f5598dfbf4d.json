@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "idas:necromancers_spire": {
+    "criteria": {
+      "in_necromancers_spire": "2024-10-01 02:09:38 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2024-09-29 23:55:44 +0000"
@@ -26,13 +32,29 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-09-30 02:22:43 +0000",
-      "minecraft:zombie": "2024-09-30 02:40:51 +0000"
+      "minecraft:ghast": "2024-10-01 02:04:20 +0000",
+      "minecraft:spider": "2024-10-01 04:53:59 +0000",
+      "minecraft:piglin": "2024-10-01 02:24:55 +0000",
+      "minecraft:zombie": "2024-09-30 02:40:51 +0000",
+      "minecraft:drowned": "2024-10-01 03:20:40 +0000"
     },
     "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-10-01 01:58:17 +0000"
+    },
+    "done": true
   },
   "tombstone:adventure/find_grave_dust": {
     "criteria": {
       "from_undead": "2024-09-30 03:19:40 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-10-01 01:37:03 +0000"
     },
     "done": true
   },
@@ -45,12 +67,20 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "sweet_berries": "2024-09-30 01:05:07 +0000",
+      "baked_potato": "2024-10-01 00:54:21 +0000",
       "apple": "2024-09-30 04:00:30 +0000",
       "potato": "2024-09-30 01:58:10 +0000",
       "bread": "2024-09-30 03:35:21 +0000",
+      "rotten_flesh": "2024-10-01 01:18:15 +0000",
       "carrot": "2024-09-30 01:44:02 +0000"
     },
     "done": false
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2024-10-01 05:18:39 +0000"
+    },
+    "done": true
   },
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
@@ -67,7 +97,9 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "shrubland": "2024-09-30 01:06:09 +0000",
+      "erupting_inferno": "2024-10-01 02:40:08 +0000",
       "maple_woods": "2024-09-30 01:03:02 +0000",
+      "crystalline_chasm": "2024-10-01 02:06:17 +0000",
       "orchard": "2024-09-30 01:05:38 +0000",
       "lavender_forest": "2024-09-30 01:05:58 +0000",
       "coniferous_forest": "2024-09-30 01:09:17 +0000",
@@ -78,6 +110,24 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-09-30 01:08:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-10-01 01:58:17 +0000"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2024-10-01 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2024-10-01 04:47:53 +0000"
     },
     "done": true
   },
@@ -92,9 +142,22 @@
       "minecraft:forest": "2024-09-30 01:03:36 +0000",
       "minecraft:ocean": "2024-09-30 01:34:25 +0000",
       "minecraft:old_growth_birch_forest": "2024-09-30 03:23:57 +0000",
+      "minecraft:deep_dark": "2024-10-01 01:00:40 +0000",
       "minecraft:meadow": "2024-09-30 00:56:02 +0000"
     },
     "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-10-01 01:58:18 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2024-10-01 01:03:54 +0000"
+    },
+    "done": true
   },
   "biomesoplenty:biomesoplenty/root": {
     "criteria": {
@@ -105,6 +168,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-09-30 01:52:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-10-01 02:41:13 +0000"
     },
     "done": true
   },
@@ -138,6 +207,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-10-01 01:13:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2024-09-30 01:05:52 +0000"
@@ -156,9 +231,27 @@
     },
     "done": true
   },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2024-10-01 05:34:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-09-30 03:34:27 +0000"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2024-10-01 03:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-10-01 01:00:40 +0000"
     },
     "done": true
   },
@@ -168,9 +261,21 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-10-01 00:59:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-09-30 00:57:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-10-01 02:23:05 +0000"
     },
     "done": true
   },
@@ -183,6 +288,24 @@
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2024-09-30 02:21:27 +0000"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2024-10-01 05:27:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-10-01 02:04:20 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/discreet_search": {
+    "criteria": {
+      "coded_trigger": "2024-10-01 02:02:54 +0000"
     },
     "done": true
   },
