@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-10-02 02:27:14 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "shrubland": "2024-09-30 01:37:33 +0000",
@@ -77,6 +83,7 @@
       "spider_nest": "2024-10-01 04:31:02 +0000",
       "pumpkin_patch": "2024-09-30 01:36:37 +0000",
       "snowy_coniferous_forest": "2024-10-01 04:33:54 +0000",
+      "origin_valley": "2024-10-02 23:16:24 +0000",
       "crag": "2024-10-01 04:43:54 +0000"
     },
     "done": false
@@ -99,11 +106,18 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-10-03 00:21:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2024-09-30 01:31:25 +0000",
       "minecraft:taiga": "2024-09-30 01:34:49 +0000",
       "minecraft:deep_ocean": "2024-10-01 03:14:26 +0000",
+      "minecraft:beach": "2024-10-02 02:51:37 +0000",
       "minecraft:river": "2024-09-30 01:37:45 +0000",
       "minecraft:stony_shore": "2024-09-30 01:37:51 +0000",
       "minecraft:grove": "2024-09-30 03:24:07 +0000",
@@ -189,17 +203,17 @@
     },
     "done": true
   },
-  "quark:get_all_corundum": {
-    "criteria": {
-      "green": "2024-10-01 04:30:25 +0000"
-    },
-    "done": false
-  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2024-10-01 02:08:51 +0000"
     },
     "done": true
+  },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "green": "2024-10-01 04:30:25 +0000"
+    },
+    "done": false
   },
   "tombstone:adventure/discreet_search": {
     "criteria": {
@@ -219,6 +233,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-10-02 02:55:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-10-01 04:46:32 +0000",
@@ -227,6 +247,7 @@
       "minecraft:spider": "2024-09-30 04:26:36 +0000",
       "minecraft:creeper": "2024-09-30 04:25:48 +0000",
       "quark:forgotten": "2024-09-30 04:22:18 +0000",
+      "minecraft:witch": "2024-10-03 01:01:51 +0000",
       "minecraft:enderman": "2024-09-30 04:13:16 +0000",
       "minecraft:zombie": "2024-09-30 03:24:54 +0000",
       "quark:foxhound": "2024-10-01 02:38:50 +0000",
@@ -237,6 +258,12 @@
   "tombstone:adventure/chain_death": {
     "criteria": {
       "coded_trigger": "2024-09-30 03:53:13 +0000"
+    },
+    "done": true
+  },
+  "knight_quest:kq_quest_find_great_essence": {
+    "criteria": {
+      "kq_quest_find_great_essence": "2024-10-02 23:39:12 +0000"
     },
     "done": true
   },
@@ -265,10 +292,13 @@
       "cooked_beef": "2024-09-30 05:01:11 +0000",
       "baked_potato": "2024-10-01 01:56:19 +0000",
       "porkchop": "2024-10-01 02:38:07 +0000",
+      "potato": "2024-10-02 02:03:54 +0000",
       "bread": "2024-09-30 04:31:24 +0000",
       "rotten_flesh": "2024-09-30 04:41:02 +0000",
       "salmon": "2024-10-01 03:26:31 +0000",
-      "cod": "2024-10-01 03:24:31 +0000"
+      "cod": "2024-10-01 03:24:31 +0000",
+      "cooked_salmon": "2024-10-03 01:13:21 +0000",
+      "carrot": "2024-10-03 01:23:20 +0000"
     },
     "done": false
   },
@@ -329,6 +359,12 @@
   "tombstone:adventure/first_knowledge": {
     "criteria": {
       "coded_trigger": "2024-09-30 02:05:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-10-02 23:47:50 +0000"
     },
     "done": true
   },
