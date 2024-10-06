@@ -1,5 +1,9 @@
-[03Oct2024 00:21:34.183] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=821, y=44, z=-275} BlockPos{x=821, y=43, z=-275}
-[03Oct2024 00:21:36.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xkatar654 has made the advancement [Magic Writing]
-[03Oct2024 00:32:11.385] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
-[03Oct2024 01:51:01.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xkatar654 lost connection: Disconnected
-[03Oct2024 01:51:01.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xkatar654 left the game
+[06Oct2024 05:09:20.138] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4478ms or 89 ticks behind
+[06Oct2024 21:40:37.980] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75b021f
+[06Oct2024 21:40:38.306] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sergiovegam41[/191.95.135.231:10672] logged in with entity id 554 at (743.1885088582965, 63.0, -59.43033957472531)
+[06Oct2024 21:40:38.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 joined the game
+[06Oct2024 21:40:38.662] [Server thread/INFO] [Jade/]: Syncing config to sergiovegam41 (bf0bba1d-c0ee-3833-8cc3-5f5598dfbf4d)
+[06Oct2024 21:40:43.654] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5801ms or 116 ticks behind
+[06Oct2024 21:40:44.010] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
+[06Oct2024 21:52:04.369] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sergiovegam41 lost connection: Disconnected
+[06Oct2024 21:52:04.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 left the game
