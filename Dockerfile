@@ -7,6 +7,11 @@ RUN useradd -m -u 1000 minecraft
 # Establecemos el directorio de trabajo
 WORKDIR /minecraft
 
+# Instalamos git
+RUN apt-get update && \
+    apt-get install -y git && \
+    rm -rf /var/lib/apt/lists/*
+
 # Copiamos los archivos a un directorio temporal
 COPY . /tmp/minecraft
 
@@ -22,5 +27,5 @@ USER minecraft
 # Exponemos el puerto 25565 para conexiones
 EXPOSE 25565
 
-# Comando para iniciar el servidor
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "server.jar", "nogui"]
+# Comando para ejecutar el script run.sh
+CMD ["sh", "./run.sh"]
