@@ -50,6 +50,7 @@
       "porkchop": "2024-10-08 03:17:33 +0200",
       "apple": "2024-10-08 05:42:45 +0200",
       "mutton": "2024-10-08 03:25:03 +0200",
+      "beetroot": "2024-10-09 05:28:17 +0200",
       "rabbit_stew": "2024-10-08 03:52:10 +0200"
     },
     "done": false
@@ -77,6 +78,7 @@
       "muskeg": "2024-10-08 03:54:39 +0200",
       "maple_woods": "2024-10-08 03:39:21 +0200",
       "coniferous_forest": "2024-10-08 03:35:31 +0200",
+      "spider_nest": "2024-10-09 06:32:18 +0200",
       "seasonal_orchard": "2024-10-08 03:10:51 +0200",
       "seasonal_forest": "2024-10-08 03:35:25 +0200",
       "dead_forest": "2024-10-08 03:41:06 +0200",
@@ -92,6 +94,12 @@
     },
     "done": true
   },
+  "mca:recipes/misc/comb": {
+    "criteria": {
+      "has_item": "2024-10-09 07:05:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-10-08 03:39:48 +0200",
@@ -100,6 +108,7 @@
       "minecraft:river": "2024-10-08 03:10:30 +0200",
       "minecraft:snowy_plains": "2024-10-08 03:11:49 +0200",
       "minecraft:snowy_taiga": "2024-10-08 03:20:20 +0200",
+      "minecraft:dripstone_caves": "2024-10-09 06:28:05 +0200",
       "minecraft:forest": "2024-10-08 03:07:35 +0200",
       "minecraft:windswept_forest": "2024-10-08 03:41:15 +0200",
       "minecraft:old_growth_spruce_taiga": "2024-10-08 03:40:11 +0200",
@@ -150,6 +159,12 @@
     },
     "done": true
   },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-10-09 06:21:46 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-10-08 03:18:27 +0200"
@@ -168,6 +183,18 @@
     },
     "done": true
   },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-10-09 04:19:48 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/whistle": {
+    "criteria": {
+      "has_item": "2024-10-09 07:05:32 +0200"
+    },
+    "done": true
+  },
   "knight_quest:kq_quest_source": {
     "criteria": {
       "kq_quest_source": "2024-10-08 03:07:33 +0200"
@@ -177,6 +204,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-10-08 03:17:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2024-10-09 05:14:03 +0200"
     },
     "done": true
   },

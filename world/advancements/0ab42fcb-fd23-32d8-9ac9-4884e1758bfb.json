@@ -1,0 +1,294 @@
+{
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2024-10-09 04:21:27 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/building_blocks/headstones": {
+    "criteria": {
+      "has_the_upright_recipe": "2024-10-09 04:21:27 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2024-10-09 07:25:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2024-10-09 04:36:52 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2024-10-09 04:21:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-10-09 05:34:11 +0200",
+      "minecraft:spider": "2024-10-09 04:36:52 +0200",
+      "minecraft:creeper": "2024-10-09 07:23:37 +0200",
+      "minecraft:enderman": "2024-10-09 06:59:16 +0200",
+      "minecraft:zombie": "2024-10-09 05:09:25 +0200",
+      "minecraft:drowned": "2024-10-09 05:05:58 +0200"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2024-10-09 04:49:05 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 05:01:03 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-10-09 05:34:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-10-09 05:46:33 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 06:26:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2024-10-09 06:41:12 +0200",
+      "cooked_beef": "2024-10-09 04:46:33 +0200",
+      "beef": "2024-10-09 06:02:13 +0200",
+      "apple": "2024-10-09 06:06:09 +0200",
+      "cooked_cod": "2024-10-09 05:48:28 +0200",
+      "pumpkin_pie": "2024-10-09 07:28:16 +0200",
+      "beetroot": "2024-10-09 07:18:08 +0200",
+      "cooked_salmon": "2024-10-09 04:56:15 +0200"
+    },
+    "done": false
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2024-10-09 04:32:22 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 05:01:40 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/needle_and_thread": {
+    "criteria": {
+      "has_item": "2024-10-09 04:36:53 +0200"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2024-10-09 04:31:13 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "muskeg": "2024-10-09 06:05:43 +0200",
+      "coniferous_forest": "2024-10-09 06:00:01 +0200",
+      "seasonal_orchard": "2024-10-09 06:09:35 +0200",
+      "seasonal_forest": "2024-10-09 06:01:21 +0200",
+      "pumpkin_patch": "2024-10-09 06:04:32 +0200",
+      "tundra": "2024-10-09 06:06:27 +0200"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-10-09 04:40:41 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/comb": {
+    "criteria": {
+      "has_item": "2024-10-09 05:38:39 +0200"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2024-10-09 06:40:13 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2024-10-09 06:02:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2024-10-09 04:29:31 +0200",
+      "minecraft:snowy_plains": "2024-10-09 04:30:26 +0200",
+      "minecraft:dripstone_caves": "2024-10-09 05:14:28 +0200",
+      "minecraft:forest": "2024-10-09 04:21:28 +0200",
+      "minecraft:plains": "2024-10-09 04:28:47 +0200"
+    },
+    "done": false
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2024-10-09 06:07:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-10-09 06:06:32 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "coniferous_forest": "2024-10-09 06:00:01 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2024-10-09 07:31:07 +0200"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-10-09 04:27:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-10-09 05:25:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-10-09 04:46:33 +0200"
+    },
+    "done": true
+  },
+  "immersive_aircraft:misc/aircraftery": {
+    "criteria": {
+      "has_item": "2024-10-09 05:38:39 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 05:01:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-10-09 06:19:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-10-09 05:10:51 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 04:31:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-09 04:37:27 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-10-09 04:28:50 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/whistle": {
+    "criteria": {
+      "has_item": "2024-10-09 05:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-10-09 05:38:39 +0200"
+    },
+    "done": true
+  },
+  "knight_quest:kq_quest_source": {
+    "criteria": {
+      "kq_quest_source": "2024-10-09 04:21:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-10-09 04:31:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-10-09 04:54:59 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2024-10-09 06:20:34 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2024-10-09 04:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-10-09 06:20:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-10-09 06:41:31 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
