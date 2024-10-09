@@ -1,0 +1,33 @@
+{
+  "idas:idas_root": {
+    "criteria": {
+      "always": "2024-10-09 03:58:07 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/building_blocks/headstones": {
+    "criteria": {
+      "has_the_slanted_recipe": "2024-10-09 03:58:07 +0200"
+    },
+    "done": true
+  },
+  "knight_quest:kq_quest_source": {
+    "criteria": {
+      "kq_quest_source": "2024-10-09 03:58:07 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2024-10-09 03:58:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-10-09 03:58:08 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
