@@ -34,6 +34,7 @@
       "minecraft:skeleton": "2024-10-09 05:17:53 +0200",
       "minecraft:spider": "2024-10-09 05:08:10 +0200",
       "minecraft:creeper": "2024-10-09 22:38:53 +0200",
+      "minecraft:enderman": "2024-10-10 05:03:02 +0200",
       "minecraft:zombie": "2024-10-09 05:10:10 +0200",
       "quark:foxhound": "2024-10-09 22:47:19 +0200"
     },
@@ -48,6 +49,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-10-09 22:40:52 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-10-10 05:00:07 +0200"
     },
     "done": true
   },
@@ -66,13 +73,21 @@
       "potato": "2024-10-09 04:30:20 +0200",
       "pumpkin_pie": "2024-10-09 22:21:21 +0200",
       "rotten_flesh": "2024-10-09 05:17:58 +0200",
-      "cooked_salmon": "2024-10-09 22:35:52 +0200"
+      "golden_carrot": "2024-10-10 04:48:33 +0200",
+      "cooked_salmon": "2024-10-09 22:35:52 +0200",
+      "carrot": "2024-10-10 04:40:23 +0200"
     },
     "done": false
   },
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
       "has_ingredient": "2024-10-09 05:01:23 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-10-10 05:00:43 +0200"
     },
     "done": true
   },
@@ -255,6 +270,12 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-10-09 04:46:40 +0200"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2024-10-10 04:45:49 +0200"
     },
     "done": true
   },

@@ -11,21 +11,27 @@
     },
     "done": true
   },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-10-10 06:01:36 +0200"
+    },
+    "done": true
+  },
   "mca:recipes/misc/potions": {
     "criteria": {
       "has_item": "2024-10-09 04:34:20 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:spider": "2024-10-09 04:53:08 +0200"
-    },
-    "done": true
-  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2024-10-09 04:23:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2024-10-09 04:53:08 +0200"
     },
     "done": true
   },
@@ -56,6 +62,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2024-10-09 05:36:42 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-10-10 05:29:12 +0200"
     },
     "done": true
   },
@@ -107,15 +119,27 @@
     },
     "done": true
   },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2024-10-10 06:01:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "seasonal_orchard": "2024-10-10 06:02:39 +0200"
+    },
+    "done": false
+  },
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2024-10-09 04:43:50 +0200"
     },
     "done": true
   },
-  "mca:recipes/misc/family_tree": {
+  "quark:get_forgotten_hat": {
     "criteria": {
-      "has_item": "2024-10-09 04:33:20 +0200"
+      "get_forgotten_hat": "2024-10-10 05:28:35 +0200"
     },
     "done": true
   },
@@ -129,9 +153,27 @@
     },
     "done": false
   },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2024-10-09 04:33:20 +0200"
+    },
+    "done": true
+  },
   "tombstone:adventure/strong_or_careful": {
     "criteria": {
       "coded_trigger": "2024-10-09 05:23:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-10-10 05:11:33 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "seasonal_orchard": "2024-10-10 06:02:39 +0200"
     },
     "done": true
   },
@@ -141,15 +183,15 @@
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2024-10-09 04:44:31 +0200"
-    },
-    "done": true
-  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-10-09 04:27:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-10-09 04:44:31 +0200"
     },
     "done": true
   },
@@ -171,21 +213,15 @@
     },
     "done": true
   },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2024-10-09 05:23:42 +0200"
-    },
-    "done": true
-  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-10-09 04:29:22 +0200"
     },
     "done": true
   },
-  "supplementaries:adventure/way_sign": {
+  "tombstone:adventure/first_grave": {
     "criteria": {
-      "bastion": "2024-10-09 04:51:22 +0200"
+      "coded_trigger": "2024-10-09 05:23:42 +0200"
     },
     "done": true
   },
@@ -198,6 +234,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-10-09 04:43:50 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-10-09 04:51:22 +0200"
     },
     "done": true
   },
@@ -234,6 +276,18 @@
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2024-10-09 05:43:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-10-10 05:54:58 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/discreet_search": {
+    "criteria": {
+      "coded_trigger": "2024-10-10 05:39:57 +0200"
     },
     "done": true
   },
