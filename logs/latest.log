@@ -1,1 +1,26 @@
 [15Oct2024 14:10:59.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12698ms or 253 ticks behind
+[15Oct2024 22:18:56.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[15Oct2024 22:18:56.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
+[15Oct2024 22:20:30.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] El servidor se reiniciara en 15 segundos para incluir el mod clockwork
+[15Oct2024 22:21:05.358] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.InterruptedIOException: Command interrupted
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.4.0-universal.jar%23222!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23217!/:?]
+Caused by: java.io.InterruptedIOException: Command interrupted
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:46) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:101) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	... 4 more
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1696) ~[?:?]
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:425) ~[?:?]
+	at org.jline.utils.ExecHelper.waitAndCapture(ExecHelper.java:66) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:36) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:101) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	... 4 more
