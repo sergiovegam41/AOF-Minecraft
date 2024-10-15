@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-10-12 03:32:59 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-10-09 04:12:11 +0200"
@@ -175,6 +181,12 @@
     },
     "done": false
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-10-12 03:33:05 +0200"
+    },
+    "done": true
+  },
   "tombstone:adventure/funeral_theft": {
     "criteria": {
       "coded_trigger": "2024-10-09 05:01:07 +0200"
@@ -195,6 +207,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-10-12 03:21:28 +0200",
       "minecraft:skeleton": "2024-10-09 04:50:46 +0200",
       "minecraft:magma_cube": "2024-10-09 21:39:47 +0200",
       "minecraft:spider": "2024-10-09 18:58:31 +0200",
@@ -280,6 +293,12 @@
   "biomesoplenty:biomesoplenty/root": {
     "criteria": {
       "seasonal_orchard": "2024-10-09 04:24:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-10-12 03:21:37 +0200"
     },
     "done": true
   },
@@ -382,6 +401,12 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2024-10-10 03:51:26 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-10-12 03:21:28 +0200"
     },
     "done": true
   },
