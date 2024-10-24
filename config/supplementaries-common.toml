@@ -1,83 +1,4 @@
 
-[redstone]
-	wind_vane = true
-	clock_block = true
-	redstone_illuminator = true
-	crank = true
-	faucet = true
-	cog_block = true
-	gold_door = true
-	gold_trapdoor = true
-	lock_block = true
-	dispenser_minecart = true
-	relayer = true
-
-	[redstone.speaker_block]
-		enabled = true
-		#Enable/disable speaker block narrator mode
-		narrator_enabled = true
-		#Maximum block range
-		#Range: 0 ~ 100000000
-		range = 64
-
-	[redstone.bellows]
-		enabled = true
-		#bellows pushes air following this equation: 
-		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
-		#represents base period at 1 power
-		#Range: 1 ~ 512
-		base_period = 78
-		#entities with velocity greater than this won't be pushed
-		#Range: 0.0 ~ 16.0
-		power_scaling = 2.0
-		#velocity increase uses this equation: 
-		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
-		#note that the block will push further the faster it's pulsing
-		#Range: 0.0 ~ 64.0
-		base_velocity_scaling = 5.0
-		#sets velocity changed flag when pushing entities +
-		#causes pushing animation to be smooth client side but also restricts player movement when being pushed
-		velocity_changed_flag = true
-		#maximum range
-		#note that it will still only keep alive the two fire blocks closer to it
-		#Range: 0 ~ 16
-		range = 5
-
-	[redstone.spring_launcher]
-		enabled = true
-		#spring launcher launch speed
-		#Range: 0.0 ~ 16.0
-		velocity = 1.5
-		#fall distance needed to trigger the automatic spring launch
-		#Range: 0 ~ 512
-		fall_height_required = 5
-
-	[redstone.enderman_head]
-		enabled = true
-		#Time to increase 1 power level when being looked at
-		#Range: 0 ~ 10000
-		ticks_to_increase_power = 15
-		#do enderman heads work when looked from any side?
-		work_from_any_side = false
-
-	[redstone.turn_table]
-		enabled = true
-		#Allows turn table (and wrenches) to shuffle inventories when they turn them horizontally
-		shuffle_inventories = true
-		#can rotate entities standing on it?
-		rotate_entities = true
-
-	[redstone.pulley_block]
-		enabled = true
-		#Chance for a new mineshaft elevator piece to spawn
-		#Range: 0.0 ~ 1.0
-		mineshaft_elevator = 0.02
-
-	[redstone.crystal_display]
-		enabled = true
-		#Makes it so when a crystal display is receiving at 10 or more power and it has another display to its right, it will connect to it forming a 2 wide display. Disable to have more control over them
-		display_carry_over = true
-
 [functional]
 	fodder = true
 	hourglass = true
@@ -186,6 +107,85 @@
 	[functional.present]
 		enabled = true
 		trapped_present = true
+
+[redstone]
+	wind_vane = true
+	clock_block = true
+	redstone_illuminator = true
+	crank = true
+	faucet = true
+	cog_block = true
+	gold_door = true
+	gold_trapdoor = true
+	lock_block = true
+	dispenser_minecart = true
+	relayer = true
+
+	[redstone.speaker_block]
+		enabled = true
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
+		#Maximum block range
+		#Range: 0 ~ 100000000
+		range = 64
+
+	[redstone.bellows]
+		enabled = true
+		#bellows pushes air following this equation: 
+		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+		#represents base period at 1 power
+		#Range: 1 ~ 512
+		base_period = 78
+		#entities with velocity greater than this won't be pushed
+		#Range: 0.0 ~ 16.0
+		power_scaling = 2.0
+		#velocity increase uses this equation: 
+		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+		#note that the block will push further the faster it's pulsing
+		#Range: 0.0 ~ 64.0
+		base_velocity_scaling = 5.0
+		#sets velocity changed flag when pushing entities +
+		#causes pushing animation to be smooth client side but also restricts player movement when being pushed
+		velocity_changed_flag = true
+		#maximum range
+		#note that it will still only keep alive the two fire blocks closer to it
+		#Range: 0 ~ 16
+		range = 5
+
+	[redstone.spring_launcher]
+		enabled = true
+		#spring launcher launch speed
+		#Range: 0.0 ~ 16.0
+		velocity = 1.5
+		#fall distance needed to trigger the automatic spring launch
+		#Range: 0 ~ 512
+		fall_height_required = 5
+
+	[redstone.enderman_head]
+		enabled = true
+		#Time to increase 1 power level when being looked at
+		#Range: 0 ~ 10000
+		ticks_to_increase_power = 15
+		#do enderman heads work when looked from any side?
+		work_from_any_side = false
+
+	[redstone.turn_table]
+		enabled = true
+		#Allows turn table (and wrenches) to shuffle inventories when they turn them horizontally
+		shuffle_inventories = true
+		#can rotate entities standing on it?
+		rotate_entities = true
+
+	[redstone.pulley_block]
+		enabled = true
+		#Chance for a new mineshaft elevator piece to spawn
+		#Range: 0.0 ~ 1.0
+		mineshaft_elevator = 0.02
+
+	[redstone.crystal_display]
+		enabled = true
+		#Makes it so when a crystal display is receiving at 10 or more power and it has another display to its right, it will connect to it forming a 2 wide display. Disable to have more control over them
+		display_carry_over = true
 
 [building]
 	daub = true

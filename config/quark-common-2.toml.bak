@@ -1,0 +1,635 @@
+
+[mobs]
+	Foxhound = true
+	Wraith = true
+	Crabs = true
+	Forgotten = true
+	Shiba = true
+	Stonelings = true
+	Toretoise = true
+
+	[mobs.foxhound]
+		#The chance coal will tame a foxhound
+		"Tame Chance" = 0.05
+		"Foxhounds Speed Up Furnaces" = true
+
+		[mobs.foxhound.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 30
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 2
+
+			[mobs.foxhound.spawn_config.biomes]
+
+				[mobs.foxhound.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.foxhound.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
+					"Is Blacklist" = false
+
+		[mobs.foxhound.lesser_spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 2
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.foxhound.lesser_spawn_config.biomes]
+
+				[mobs.foxhound.lesser_spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+	[mobs.wraith]
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.wraith.spawn_config.biomes]
+
+				[mobs.wraith.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				[mobs.wraith.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+	[mobs.crabs]
+		"Enable Brewing" = true
+		#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.
+		#Keep this on when brewing is disabled if your pack adds an alternative source for the effect.
+		"Resilience Required For All Effects" = true
+
+		[mobs.crabs.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.crabs.spawn_config.biomes]
+
+				[mobs.crabs.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_beach"]
+					"Is Blacklist" = false
+
+				[mobs.crabs.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.forgotten]
+		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 0
+
+	[mobs.shiba]
+		"Ignore Areas With Skylight" = false
+
+		[mobs.shiba.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 40
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.shiba.spawn_config.biomes]
+
+				[mobs.shiba.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_mountain"]
+					"Is Blacklist" = false
+
+				[mobs.shiba.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.stonelings]
+		"Max Y Level" = 0
+		"Enable Diamond Heart" = true
+		#When enabled, stonelings are much more aggressive in checking for players
+		"Cautious Stonelings" = false
+		"Tamable Stonelings" = true
+		#Disabled if if Pathfinder Maps are disabled.
+		"Weald Pathfinder Maps" = true
+
+		[mobs.stonelings.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.stonelings.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 80
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.stonelings.spawn_config.biomes]
+
+				[mobs.stonelings.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				[mobs.stonelings.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.toretoise]
+		"Max Y Level" = 0
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["minecraft:glow_berries"]
+		"Allow Toretoise To Regrow" = true
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
+		"Regrow Chance" = 3
+
+		[mobs.toretoise.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.toretoise.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 120
+			#Allowed values: [1,)
+			"Min Group Size" = 2
+			#Allowed values: [1,)
+			"Max Group Size" = 4
+
+			[mobs.toretoise.spawn_config.biomes]
+
+				[mobs.toretoise.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				[mobs.toretoise.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+[general]
+	"Enable 'q' Button" = true
+	"'q' Button on the Right" = false
+	"Disable Q Menu Effects" = false
+	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
+	"Use Anti Overlap" = true
+	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
+	"Use Piston Logic Replacement" = true
+	#Allowed values: (0,)
+	"Piston Push Limit" = 12
+	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
+	#Blocks that Quark should treat as Shulker Boxes.
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
+	"Interpret Shulker Box Like Blocks" = true
+	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
+	"Enable Worldgen Watchdog" = false
+	#Set to true if you need to find the class name for a screen that's causing problems
+	"Print Screen Classnames" = false
+	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
+	"Allowed Screens" = []
+	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
+	"Use Screen List Blacklist" = false
+	#Set to true to make the quark big worldgen features such as stone clusters generate as spheres rather than unique shapes. It's faster, but won't look as cool
+	"Use Fast Worldgen" = false
+	#Enables quark network profiling features. Do not enable this unless requested to.
+	"Enable Network Profiling" = false
+	#Used for terrablender integration
+	"Terrablender Region Weight" = 1
+	#Set to false to stop quark from adding its own items to multi-requirement vanilla advancements
+	"Enable Advancement Modification" = true
+	#Set to false to stop quark from adding its own advancements
+	"Enable Quark Advancements" = true
+	#Set to false to disable the popup message telling you that you can config quark in the q menu
+	"Enable Onboarding" = true
+	#Set to false to disable the behavior where quark will automatically hide any disabled items
+	"Hide Disabled Content" = true
+	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
+	"Enable Jei Item Info" = true
+	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
+	"Suppressed Info" = []
+
+[categories]
+	Automation = true
+	Building = true
+	Management = true
+	Tools = true
+	Tweaks = true
+	World = true
+	Mobs = true
+	Client = true
+	Experimental = true
+	Oddities = true
+
+[automation]
+	"Pistons Move Tile Entities" = true
+	"Ender Watcher" = true
+	"Redstone Randomizer" = true
+	"Feeding Trough" = true
+	"Metal Buttons" = true
+	"Iron Rod" = true
+	"Obsidian Plate" = true
+	"Chains Connect Blocks" = true
+	Gravisand = true
+	"Jukebox Automation" = true
+	"Dispensers Place Blocks" = true
+	Chute = true
+
+	[automation.pistons_move_tile_entities]
+		"Enable Chests Moving Together" = true
+		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
+		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
+		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
+
+	[automation.feeding_trough]
+		#How long, in game ticks, between animals being able to eat from the trough
+		#Allowed values: [1,)
+		Cooldown = 30
+		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
+		"Max Animals" = 32
+		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
+		#Allowed values: (0,1]
+		"Love Chance" = 0.333333333
+		Range = 10.0
+		#Set to false to make it so animals look for a nearby trough every time they want to eat instead of remembering the last one. Can affect performance if false.
+		"Enable Trough Caching" = true
+
+	[automation.metal_buttons]
+		"Enable Iron" = true
+		"Enable Gold" = true
+
+	[automation.iron_rod]
+		"Use Pre End Recipe" = false
+
+	[automation.dispensers_place_blocks]
+		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
+		#Set to false to refrain from registering any behaviors for blocks that have optional dispense behaviors already set.
+		#An optional behavior is one that will defer to the generic dispense item behavior if its condition fails.
+		#e.g. the Shulker Box behavior is optional, because it'll throw out the item if it fails, whereas TNT is not optional.
+		#If true, it'll attempt to use the previous behavior before trying to place the block in the world.
+		#Requires a game restart to re-apply.
+		"Wrap Existing Behaviors" = true
+
+[building]
+	"Variant Ladders" = true
+	"Variant Bookshelves" = true
+	"Bamboo Backport" = true
+	"Compressed Blocks" = true
+	"More Potted Plants" = true
+	"Duskbound Blocks" = true
+	"Wooden Posts" = true
+	Thatch = true
+	"More Stone Variants" = true
+	"Shear Vines" = true
+	"Nether Brick Fence Gate" = true
+	"Gold Bars" = true
+	Rope = true
+	"Celebratory Lamps" = true
+	"Soul Sandstone" = true
+	"Variant Chests" = true
+	"Leaf Carpet" = true
+	"Framed Glass" = true
+	"Vertical Planks" = true
+	"Variant Furnaces" = true
+	Hedges = true
+	"Hollow Logs" = true
+	Midori = true
+	"Rainbow Lamps" = true
+	"Vertical Slabs" = true
+	Shingles = true
+	"Sturdy Stone" = true
+	Stools = true
+	"Raw Metal Bricks" = true
+	"More Mud Blocks" = true
+	Grate = true
+	"Japanese Palette" = true
+	"More Brick Types" = true
+	"Glass Item Frame" = true
+	"Industrial Palette" = true
+
+	[building.variant_ladders]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Change Names" = true
+
+	[building.variant_bookshelves]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Change Names" = true
+
+	[building.compressed_blocks]
+		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		#Allowed values: [0,)
+		"Charcoal Block Fuel Time" = 16000
+		#Allowed values: [0,)
+		"Blaze Lantern Fuel Time" = 24000
+		#Allowed values: [0,)
+		"Stick Block Fuel Time" = 900
+		#Allowed values: [0,)
+		"Bamboo Block Fuel Time" = 500
+		"Enable Charcoal Block" = true
+		"Enable Sugar Cane Block" = true
+		"Enable Bamboo Block" = true
+		"Enable Cactus Block" = true
+		"Enable Chorus Fruit Block" = true
+		"Enable Stick Block" = true
+		"Enable Apple Crate" = true
+		"Enable Golden Apple Crate" = true
+		"Enable Potato Crate" = true
+		"Enable Carrot Crate" = true
+		"Enable Golden Carrot Crate" = true
+		"Enable Beetroot Crate" = true
+		"Enable Cocoa Bean Sack" = true
+		"Enable Nether Wart Sack" = true
+		"Enable Gunpowder Sack" = true
+		"Enable Berry Sack" = true
+		"Enable Glow Berry Sack" = true
+		"Enable Blaze Lantern" = true
+		"Enable Bonded Leather" = true
+		"Enable Bonded Rabbit Hide" = true
+
+	[building.thatch]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - goated
+		# - environmental
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Allowed values: [0,1]
+		"Fall Damage Multiplier" = 0.5
+
+	[building.more_stone_variants]
+		"Enable Bricks" = true
+		"Enable Chiseled Bricks" = true
+		"Enable Pillar" = true
+
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
+	[building.rope]
+		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
+		#Note that ropes will still use the same blacklist.
+		"Force Enable Move Tile Entities" = false
+		"Enable Dispenser Behavior" = true
+
+	[building.celebratory_lamps]
+		"Light Level" = 15
+
+	[building.variant_chests]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Replace Worldgen Chests" = true
+		"Enable Reverting Wooden Chests" = true
+		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
+		"Structure Chests" = []
+
+	[building.leaf_carpet]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		# - immersive_weathering
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+
+	[building.vertical_planks]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+
+	[building.hollow_logs]
+		"Enable Auto Crawl" = true
+
+	[building.rainbow_lamps]
+		"Light Level" = 15
+		#Whether Rainbow Lamps should be made from and themed on Corundum if that module is enabled.
+		"Use Corundum" = true
+
+	[building.vertical_slabs]
+		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
+		"Allow Side Connections" = true
+
+	[building.japanese_palette]
+		"Enable Paper Blocks" = true
+		"Enable Bamboo Mats" = true
+
+	[building.more_brick_types]
+		#This also comes with a utility recipe for Red Nether Bricks
+		"Enable Blue Nether Bricks" = true
+		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
+		"Enable Sandstone Bricks" = true
+		#This also includes Mossy Cobblestone Bricks
+		"Enable Cobblestone Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Blackstone Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Dirt Bricks" = true
+		#Requires Cobblestone Bricks to be enabled
+		"Enable Netherrack Bricks" = true
+
+	[building.glass_item_frame]
+		"Glass Item Frames Update Maps" = true
+		#Set to true for faster map updates. Default is every 3s
+		"Glass Item Frames Update Maps Every Tick" = false
+		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
+		"Item Render Scale" = 1.5
+
+	[building.industrial_palette]
+		"Enable Iron Plates" = true
+		"Enable Iron Ladder" = true
+
+[management]
+	"Quick Armor Swapping" = true
+	"Item Sharing" = true
+	"Automatic Tool Restock" = true
+	"Expanded Item Interactions" = true
+	"Inventory Sorting" = true
+	"Hotbar Changer" = true
+	"Easy Transfering" = true
+
+	[management.quick_armor_swapping]
+		"Swap Off Hand" = true
+
+	[management.item_sharing]
+		"Render Items In Chat" = true
+
+	[management.automatic_tool_restock]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - inventorytweaks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Enchantments deemed important enough to have special priority when finding a replacement
+		"Important Enchantments" = ["minecraft:silk_touch", "minecraft:fortune", "minecraft:infinity", "minecraft:luck_of_the_sea", "minecraft:looting"]
+		#Enable replacing your tools with tools of the same type but not the same item
+		"Enable Loose Matching" = true
+		#Enable comparing enchantments to find a replacement
+		"Enable Enchant Matching" = true
+		#Allow pulling items from one hotbar slot to another
+		"Check Hotbar" = false
+		"Unstackables Only" = false
+		#Any items you place in this list will be ignored by the restock feature
+		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
+
+	[management.expanded_item_interactions]
+		"Enable Armor Interaction" = true
+		"Enable Shulker Box Interaction" = true
+		"Enable Lava Interaction" = true
+		"Allow Opening Shulker Boxes" = true
+		"Allow Rotating Bundles" = true
+
+	[management.inventory_sorting]
+		"Enable Player Inventory" = true
+		"Enable Player Inventory In Chests" = true
+		"Enable Chests" = true
+		#Play a click when sorting inventories using keybindings
+		"Satisfying Click" = true
+
+	[management.easy_transfering]
+		"Enable Shift Lock" = true
+
+[tools]
+	"Beacon Redirection" = true
+	"Ambient Discs" = true
+	"Pathfinder Maps" = true
+	"Color Runes" = true
+	Pickarang = true
+	"Parrot Eggs" = true
+	Trowel = true
+	Abacus = true
+	"Bottled Cloud" = true
+	"Torch Arrow" = true
+	"Bundle Recipe" = true
+	"Ancient Tomes" = true
+	"Endermosh Music Disc" = true
+	"Seed Pouch" = true
+	"Skull Pikes" = true
+	"Slime In A Bucket" = true
+
+	[tools.beacon_redirection]
+		"Horizontal Move Limit" = 64
+		"Allow Tinted Glass Transparency" = true
+
+	[tools.ambient_discs]
+		"Drop On Spider Kill" = true
+		Volume = 3.0
+
+	[tools.pathfinder_maps]
+		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
+		#Each custom map must be on its own line.
+		#The format for a custom map is as follows:
+		#<id>,<level>,<min_price>,<max_price>,<color>,<name>
+		#
+		#With the following descriptions:
+		# - <id> being the biome's ID NAME. You can find vanilla names here - https://minecraft.wiki/w/Biome#Biome_IDs
+		# - <level> being the Cartographer villager level required for the map to be unlockable
+		# - <min_price> being the cheapest (in Emeralds) the map can be
+		# - <max_price> being the most expensive (in Emeralds) the map can be
+		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
+		#
+		#Here's an example of a map to locate Ice Mountains:
+		#minecraft:ice_mountains,2,8,14,7FE4FF
+		Customs = []
+		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
+		"Apply Default Trades" = true
+		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
+		"Pathfinders Quill Speed" = 32
+		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
+		"Multi Threaded" = true
+		#Allows retrying after a pathfinder quill fails to find a biome nearby. Turn off if you think its op
+		"Allow Retrying" = true
+		"Search Radius" = 6400
+		"Xp From Trade" = 5
+		"Add To Cartographer" = true
+		"Add To Wandering Trader Forced" = true
+		"Add To Wandering Trader Generic" = false
+		"Add To Wandering Trader Rare" = false
+		"Draw Hud" = true
+		"Hud On Top" = false
+
+	[tools.color_runes]
+		#Whether you can blend runes of each of the 'primary' colors plus white to create rainbow runes.
+		"Rainbow Rune Craftable" = true
+		#Whether you can blend runes of the 'primary' colors to create other colors of rune.
+		"Color Blending Runes" = true
+		"Dungeon Weight" = 10
+		"Nether Fortress Weight" = 8
+		"Jungle Temple Weight" = 8
+		"Desert Temple Weight" = 8
+		"Item Quality" = 0
+		"Apply Cost" = 5
+
+	[tools.pickarang]
+		"Enable Flamerang" = true
+		"Enable Echorang" = true
+		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
+		"Never Use Heart Of Diamond" = false
+
+		[tools.pickarang.pickarang]
+			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
+			Timeout = 20
+			#Pickarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
+			"Harvest Level" = 3
+			#Pickarang durability. Set to -1 to have the Pickarang be unbreakable.
+			Durability = 800
+			#Pickarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
+			"Max Hardness" = 20.0
+			#How much damage the Pickarang deals when swung as an item
+			"Attack Damage" = 2
+			#How many ticks do you have to wait between using the pickarang again
+			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = false
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
+
+		[tools.pickarang.flamerang]
+			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
+			Timeout = 20
+			#Pickarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
+			"Harvest Level" = 4
+			#Pickarang durability. Set to -1 to have the Pickarang be unbreakable.
+			Durability = 1040
+			#Pickarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
+			"Max Hardness" = 20.0
+			#How much damage the Pickarang deals when swung as an item
+			"Attack Damage" = 3
+			#How many ticks do you have to wait between using the pickarang again
+			Cooldown = 10
+			#Whe

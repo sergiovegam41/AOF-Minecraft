@@ -1,26 +1,18 @@
-[15Oct2024 14:10:59.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12698ms or 253 ticks behind
-[15Oct2024 22:18:56.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[15Oct2024 22:18:56.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
-[15Oct2024 22:20:30.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] El servidor se reiniciara en 15 segundos para incluir el mod clockwork
-[15Oct2024 22:21:05.358] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
-java.io.IOError: java.io.InterruptedIOException: Command interrupted
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2361!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2361!/:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.4.0-universal.jar%23222!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23217!/:?]
-Caused by: java.io.InterruptedIOException: Command interrupted
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:46) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:101) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	... 4 more
-Caused by: java.lang.InterruptedException
-	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1696) ~[?:?]
-	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:425) ~[?:?]
-	at org.jline.utils.ExecHelper.waitAndCapture(ExecHelper.java:66) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:36) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:101) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
-	... 4 more
+[24Oct2024 04:39:56.801] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6e3a331c[id=<null>,name=sergios41,properties={},legacy=false] (/191.95.135.219:9453) lost connection: Disconnected
+[24Oct2024 04:40:23.200] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@45be03a6
+[24Oct2024 04:40:23.286] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sergios41[/191.95.135.219:3067] logged in with entity id 100014 at (116.3996356698831, 63.0, -47.05372064493623)
+[24Oct2024 04:40:23.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 joined the game
+[24Oct2024 04:40:23.756] [Server thread/INFO] [Jade/]: Syncing config to sergios41 (1f8fcb69-064c-33cc-96b8-1c526822db69)
+[24Oct2024 04:40:25.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2355ms or 47 ticks behind
+[24Oct2024 04:41:00.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 was slain by Zombie
+[24Oct2024 04:41:00.879] [Server thread/INFO] [tombstone/]: The player sergios41 has successfully been saved
+[24Oct2024 04:59:59.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 was slain by Zombie
+[24Oct2024 04:59:59.571] [Server thread/INFO] [tombstone/]: The player sergios41 has successfully been saved
+[24Oct2024 05:27:42.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 was shot by Skeleton
+[24Oct2024 05:27:42.820] [Server thread/INFO] [tombstone/]: The player sergios41 has successfully been saved
+[24Oct2024 05:34:18.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 was shot by Skeleton
+[24Oct2024 05:34:18.447] [Server thread/INFO] [tombstone/]: The player sergios41 has successfully been saved
+[24Oct2024 05:39:58.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 has made the advancement [The Andesite Age]
+[24Oct2024 05:56:40.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 has made the advancement [Bonk!]
+[24Oct2024 05:58:06.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sergios41 lost connection: Disconnected
+[24Oct2024 05:58:06.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergios41 left the game
