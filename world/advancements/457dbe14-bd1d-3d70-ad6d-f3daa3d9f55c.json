@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "supplementaries:adventure/globe": {
+    "criteria": {
+      "unlock": "2024-10-27 03:59:28 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2024-10-09 05:49:17 +0200"
@@ -73,6 +79,7 @@
       "redwood_forest": "2024-10-13 04:09:27 +0200",
       "cherry_blossom_grove": "2024-10-13 04:10:35 +0200",
       "seasonal_orchard": "2024-10-09 04:30:08 +0200",
+      "dune_beach": "2024-10-27 03:48:07 +0100",
       "seasonal_forest": "2024-10-09 06:01:41 +0200",
       "rocky_rainforest": "2024-10-13 04:11:00 +0200",
       "lavender_field": "2024-10-13 04:07:34 +0200",
@@ -112,11 +119,13 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-10-10 05:17:44 +0200",
+      "minecraft:deep_ocean": "2024-10-27 03:47:18 +0100",
       "minecraft:frozen_river": "2024-10-11 01:33:02 +0200",
       "minecraft:windswept_hills": "2024-10-11 01:41:59 +0200",
       "minecraft:beach": "2024-10-12 04:11:32 +0200",
       "minecraft:sparse_jungle": "2024-10-13 21:43:53 +0200",
       "minecraft:river": "2024-10-09 04:29:28 +0200",
+      "minecraft:lukewarm_ocean": "2024-10-27 03:45:13 +0100",
       "minecraft:snowy_plains": "2024-10-09 04:32:04 +0200",
       "minecraft:stony_shore": "2024-10-12 04:34:52 +0200",
       "minecraft:dripstone_caves": "2024-10-09 05:18:20 +0200",
@@ -124,6 +133,7 @@
       "minecraft:forest": "2024-10-09 04:21:38 +0200",
       "minecraft:lush_caves": "2024-10-10 06:14:52 +0200",
       "minecraft:windswept_forest": "2024-10-11 01:55:44 +0200",
+      "minecraft:ocean": "2024-10-27 03:40:11 +0100",
       "minecraft:old_growth_spruce_taiga": "2024-10-13 03:53:51 +0200",
       "minecraft:meadow": "2024-10-12 03:52:35 +0200",
       "minecraft:windswept_gravelly_hills": "2024-10-11 01:30:40 +0200",
