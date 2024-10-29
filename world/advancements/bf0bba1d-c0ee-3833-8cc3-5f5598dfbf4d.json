@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/halloween": {
+    "criteria": {
+      "coded_trigger": "2024-10-28 21:55:34 +0100"
+    },
+    "done": true
+  },
   "create:copper": {
     "criteria": {
       "0": "2024-10-10 02:45:38 +0200"
@@ -135,9 +141,21 @@
     },
     "done": true
   },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2024-10-29 01:19:18 +0100"
+    },
+    "done": true
+  },
   "quark:get_forgotten_hat": {
     "criteria": {
       "get_forgotten_hat": "2024-10-09 23:40:37 +0200"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2024-10-28 22:43:49 +0100"
     },
     "done": true
   },
@@ -177,6 +195,12 @@
     },
     "done": true
   },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2024-10-28 23:39:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-10-08 03:19:27 +0200"
@@ -186,6 +210,12 @@
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2024-10-10 05:33:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-10-28 23:50:54 +0100"
     },
     "done": true
   },
@@ -210,6 +240,12 @@
   "mca:recipes/misc/books": {
     "criteria": {
       "has_item": "2024-10-09 22:51:14 +0200"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2024-10-28 22:38:39 +0100"
     },
     "done": true
   },
@@ -249,9 +285,21 @@
     },
     "done": true
   },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-10-28 22:00:09 +0100"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2024-10-08 03:07:35 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-10-29 00:30:01 +0100"
     },
     "done": true
   },
@@ -273,7 +321,8 @@
       "quark:wraith": "2024-10-10 04:42:15 +0200",
       "minecraft:enderman": "2024-10-09 02:40:48 +0200",
       "minecraft:stray": "2024-10-09 02:09:30 +0200",
-      "minecraft:zombie": "2024-10-08 06:22:37 +0200"
+      "minecraft:zombie": "2024-10-08 06:22:37 +0200",
+      "minecraft:drowned": "2024-10-29 00:29:54 +0100"
     },
     "done": false
   },
@@ -329,6 +378,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2024-10-29 00:12:26 +0100"
+    },
+    "done": true
+  },
   "mca:recipes/misc/comb": {
     "criteria": {
       "has_item": "2024-10-09 07:05:32 +0200"
@@ -349,6 +404,12 @@
       "minecraft:warped_forest": "2024-10-10 04:29:20 +0200"
     },
     "done": false
+  },
+  "create:crusher_maxed_0000": {
+    "criteria": {
+      "0": "2024-10-29 01:43:06 +0100"
+    },
+    "done": true
   },
   "mca:root": {
     "criteria": {
@@ -425,6 +486,12 @@
   "mca:recipes/misc/whistle": {
     "criteria": {
       "has_item": "2024-10-09 07:05:32 +0200"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2024-10-28 23:38:24 +0100"
     },
     "done": true
   },
