@@ -62,3 +62,44 @@
 [29Oct2024 17:50:35.633] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sergiovegam41[/191.95.135.122:58898] logged in with entity id 337840 at (32.4422752004316, 66.0, -58.93073550001576)
 [29Oct2024 17:50:35.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 joined the game
 [29Oct2024 17:50:36.190] [Server thread/INFO] [Jade/]: Syncing config to sergiovegam41 (bf0bba1d-c0ee-3833-8cc3-5f5598dfbf4d)
+[29Oct2024 19:04:25.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Stray
+[29Oct2024 19:04:26.534] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 19:47:24.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Zombie
+[29Oct2024 19:47:25.368] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 20:46:32.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Stray
+[29Oct2024 20:46:33.413] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 20:47:50.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Zombie
+[29Oct2024 20:47:51.186] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:06:07.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Zombie
+[29Oct2024 21:06:08.965] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:08:43.739] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2603ms or 52 ticks behind
+[29Oct2024 21:12:23.714] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2679ms or 53 ticks behind
+[29Oct2024 21:15:55.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Zombie
+[29Oct2024 21:15:57.136] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:16:43.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was blown up by Creeper
+[29Oct2024 21:16:44.815] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:17:17.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was blown up by Creeper
+[29Oct2024 21:17:18.712] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:17:49.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Skeleton
+[29Oct2024 21:17:50.826] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:20:10.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Skeleton
+[29Oct2024 21:20:11.928] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:29:46.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Skeleton
+[29Oct2024 21:29:47.498] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:32:45.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Skeleton
+[29Oct2024 21:32:46.659] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:41:19.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Enderman
+[29Oct2024 21:41:21.126] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:47:22.683] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2448ms or 48 ticks behind
+[29Oct2024 21:49:28.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Enderman
+[29Oct2024 21:49:29.506] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:49:52.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was slain by Enderman
+[29Oct2024 21:49:54.003] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 21:51:37.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 was shot by Skeleton
+[29Oct2024 21:51:38.717] [Server thread/INFO] [tombstone/]: The player sergiovegam41 has successfully been saved
+[29Oct2024 22:02:54.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
+[29Oct2024 22:05:32.665] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2180ms or 43 ticks behind
+[29Oct2024 22:12:42.779] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
+[29Oct2024 22:18:36.412] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2827ms or 56 ticks behind
+[29Oct2024 22:31:12.515] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: sergiovegam41 lost connection: Disconnected
+[29Oct2024 22:31:12.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sergiovegam41 left the game
